@@ -29,7 +29,7 @@ If you're up for a challenge, try implementing the bonus functions to handle lin
 
 1. **Clone the Repo**:
    ```bash
-   git clone https://github.com/yourusername/libft.git
+   git clone https://github.com/Nihilantropy/Libft.git
    ```
 
 2. **Navigate to your project**:
@@ -62,7 +62,8 @@ A: No, this project is all about writing your own code. Keep it pure and fun!
 A: Make sure to use tools like Valgrind to track down and fix any memory leaks.
 
 **Q: How can I test my functions?**  
-A: Writing your own test programs can be incredibly helpful. Feel free to add these to your repository and use them for testing during your defense.
+A: Writing your own test programs can be incredibly helpful. However you cannot push it on your repository. The best thing you can do
+	is to quickly learn how to use the main function and the compiler to test each function with lots of cases (check the edge cases carefully!). 
 
 ## 📜 License
 
