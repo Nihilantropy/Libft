@@ -68,7 +68,7 @@ $(NAME):	$(OBJS)
 
 all:		$(NAME)
 
-bonus:		$(B_OBJS)
+bonus:		$(NAME) $(B_OBJS)
 			$(AR) $(NAME) $(B_OBJS)
 
 clean:

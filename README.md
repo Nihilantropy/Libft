@@ -63,14 +63,9 @@ A: Make sure to use tools like Valgrind to track down and fix any memory leaks.
 
 **Q: How can I test my functions?**  
 A: Writing your own test programs can be incredibly helpful. However you cannot push it on your repository. The best thing you can do
-	is to quickly learn how to use the main function and the compiler to test each function with lots of cases (check the edge cases carefully!). 
+	is to quickly learn how to use the main function and the compiler to test each function with lots of cases (check the edge cases carefully!)
+	See alse the libft tester on git hub!.
 
-## 📜 License
+## Leave a strar :star:!
 
-This project is licensed under the MIT License. Feel free to use it, modify it, or just admire it.
-
-## 🤝 Contributing
-
-Want to contribute to Libft? Fork the repo, make your changes, and submit a pull request. We love to see improvements and additional features!
-
-
+If you'd like to see an in-depth analisy of this code, leave a star to let me know! :love_letter:
