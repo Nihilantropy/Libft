@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_strchr:
-		Locates the first occurrence of the character 'c' in the string 'str'.
-		If 'c' is 0, it returns a pointer to the null terminator of 'str'.
-		Returns a pointer to the first occurrence of 'c' in 'str' or NULL if 'c' is not found.
+**	Locates the first occurrence of the character 'c' in the string 'str'.
+**	If 'c' is 0, it returns a pointer to the null terminator of 'str'.
+**	Returns a pointer to the first occurrence of 'c' in 'str' or NULL if 'c' is not found.
 */
 char	*ft_strchr(const char *str, int c)
 {

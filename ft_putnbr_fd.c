@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_putnbr_fd:
-		Writes the integer 'n' to the file descriptor 'fd'.
-		If 'n' is negative, a minus sign is printed before the number.
-		The function handles the integer as a sequence of digits, printing each digit individually.
+**	Writes the integer 'n' to the file descriptor 'fd'.
+**	If 'n' is negative, a minus sign is printed before the number.
+**	The function handles the integer as a sequence of digits, printing each digit individually.
 */
 void	ft_putnbr_fd(int n, int fd)
 {

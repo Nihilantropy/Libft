@@ -13,10 +13,10 @@
 #include "libft.h"
 
 /*	ft_strlcpy:
-		Copies up to 'sz' bytes from the null-terminated string 'src' to 'dest', 
-		null-terminating the result if 'sz' is greater than 0. Returns the total 
-		length of 'src'. If 'sz' is 0, 'dest' is not modified and no null-terminator 
-		is added.
+**	Copies up to 'sz' bytes from the null-terminated string 'src' to 'dest', 
+**	null-terminating the result if 'sz' is greater than 0. Returns the total 
+**	length of 'src'. If 'sz' is 0, 'dest' is not modified and no null-terminator 
+**	is added.
 */
 size_t	ft_strlcpy(char *dest, const char *src, size_t sz)
 {

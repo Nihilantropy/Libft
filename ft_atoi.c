@@ -13,10 +13,10 @@
 #include "libft.h"
 
 /*	ft_atoi:
-		Converts the string 'str' to an integer. 
-		Handles optional leading whitespace and sign (+/-).
-		Returns the resulting integer value.
-		(i.e., "42" -> 42)
+**	Converts the string 'str' to an integer. 
+**	Handles optional leading whitespace and sign (+/-).
+**	Returns the resulting integer value.
+**	(i.e., "42" -> 42)
 */
 int	ft_atoi(const char *str)
 {

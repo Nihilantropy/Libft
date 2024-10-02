@@ -13,7 +13,7 @@
 #include "libft.h"
 
 /*	ft_strlen:
-		Returns the length of the string pointed to by 'str', excluding the null terminator.
+**	Returns the length of the string pointed to by 'str', excluding the null terminator.
 */
 size_t	ft_strlen(const char *str)
 {

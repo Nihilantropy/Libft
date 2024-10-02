@@ -13,11 +13,11 @@
 #include "libft.h"
 
 /*	ft_strdup:
-		Creates a duplicate of the string 'str'.
-		Allocates memory for the duplicate string including the null terminator,
-		copies the content of 'str' into the newly allocated memory, and returns a pointer
-		to the duplicated string.
-		Returns NULL if memory allocation fails.
+**	Creates a duplicate of the string 'str'.
+**	Allocates memory for the duplicate string including the null terminator,
+**	copies the content of 'str' into the newly allocated memory, and returns a pointer
+**	to the duplicated string.
+**	Returns NULL if memory allocation fails.
 */
 char	*ft_strdup(const char *str)
 {

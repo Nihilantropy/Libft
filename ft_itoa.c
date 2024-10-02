@@ -15,11 +15,11 @@
 static int	getdigits(long int n);
 
 /*	ft_itoa:
-		Converts an integer 'n' into a string representation.
-		Handles negative numbers and allocates sufficient memory for the result.
-		Returns a pointer to the newly allocated string containing the number.
-		If the memory allocation fails, returns NULL.
-		(i.e., 42 -> "42")
+**	Converts an integer 'n' into a string representation.
+**	Handles negative numbers and allocates sufficient memory for the result.
+**	Returns a pointer to the newly allocated string containing the number.
+**	If the memory allocation fails, returns NULL.
+**	(i.e., 42 -> "42")
 */
 char	*ft_itoa(int n)
 {

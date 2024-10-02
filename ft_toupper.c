@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_toupper:
-		Converts a lowercase letter 'c' to its uppercase equivalent.
-		If 'c' is not a lowercase letter, it is returned unchanged.
+**	Converts a lowercase letter 'c' to its uppercase equivalent.
+**	If 'c' is not a lowercase letter, it is returned unchanged.
 */
 int	ft_toupper(int c)
 {

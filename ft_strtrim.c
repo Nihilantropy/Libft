@@ -15,8 +15,8 @@
 static int	ft_char_in_set(char c, const char *set);
 
 /*	ft_strtrim:
-		Trims the characters from the beginning and end of 's1' that are present in 'set'.
-		Returns a newly allocated string with the trimmed result.
+**	Trims the characters from the beginning and end of 's1' that are present in 'set'.
+**	Returns a newly allocated string with the trimmed result.
 */
 char	*ft_strtrim(const char *s1, const char *set)
 {
@@ -42,8 +42,8 @@ char	*ft_strtrim(const char *s1, const char *set)
 }
 
 /*	ft_char_in_set:
-		Checks if the character 'c' is present in the string 'set'.
-		Returns 1 if 'c' is found in 'set', otherwise returns 0.
+**	Checks if the character 'c' is present in the string 'set'.
+**	Returns 1 if 'c' is found in 'set', otherwise returns 0.
 */
 static int	ft_char_in_set(char c, const char *set)
 {

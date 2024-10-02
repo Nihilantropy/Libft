@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_lstlast:
-		Finds and returns the last node in the list pointed to by 'lst'.
-		If 'lst' is NULL, returns NULL.
+**	Finds and returns the last node in the list pointed to by 'lst'.
+**	If 'lst' is NULL, returns NULL.
 */
 t_list	*ft_lstlast(t_list *lst)
 {

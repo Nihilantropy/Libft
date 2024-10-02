@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_memcpy:
-		Copies 'len' bytes from memory area 'src' to memory area 'dest'.
-		If either 'dest' or 'src' is NULL, returns NULL.
-		Returns a pointer to 'dest'.
+**	Copies 'len' bytes from memory area 'src' to memory area 'dest'.
+**	If either 'dest' or 'src' is NULL, returns NULL.
+**	Returns a pointer to 'dest'.
 */
 void	*ft_memcpy(void *dest, const void *src, size_t len)
 {

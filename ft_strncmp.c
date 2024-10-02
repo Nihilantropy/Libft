@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_strncmp:
-		Compares up to 'n' characters of the strings 's1' and 's2'.
-		Returns 0 if they are equal up to 'n' characters, a negative value if 's1' is less than 's2',
-		or a positive value if 's1' is greater than 's2'.
+**	Compares up to 'n' characters of the strings 's1' and 's2'.
+**	Returns 0 if they are equal up to 'n' characters, a negative value if 's1' is less than 's2',
+**	or a positive value if 's1' is greater than 's2'.
 */
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

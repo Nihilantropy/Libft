@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_strnstr:
-		Locates the first occurrence of the substring 'to_find' within the string 'str',
-		looking only within the first 'len' characters.
-		Returns a pointer to the beginning of the located substring or NULL if 'to_find' is not found.
+**	Locates the first occurrence of the substring 'to_find' within the string 'str',
+**	looking only within the first 'len' characters.
+**	Returns a pointer to the beginning of the located substring or NULL if 'to_find' is not found.
 */
 char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 {

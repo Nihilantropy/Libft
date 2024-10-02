@@ -13,10 +13,10 @@
 #include "libft.h"
 
 /*	ft_strlcat:
-		Appends the null-terminated string 'src' to the end of 'dest', up to 'sz' bytes
-		in total, including the null terminator. Returns the length of the string it tried
-		to create, which is the length of 'src' plus the length of 'dest'. If 'sz' is less 
-		than the length of 'dest', 'dest' is not null-terminated.
+**	Appends the null-terminated string 'src' to the end of 'dest', up to 'sz' bytes
+**	in total, including the null terminator. Returns the length of the string it tried
+**	to create, which is the length of 'src' plus the length of 'dest'. If 'sz' is less 
+**	than the length of 'dest', 'dest' is not null-terminated.
 */
 size_t	ft_strlcat(char *dest, const char *src, size_t sz)
 {

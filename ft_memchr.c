@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_memchr:
-		Searches for the first occurrence of the byte 'c' in the first 'sz' bytes 
-		of the memory area pointed to by 's'. Returns a pointer to the matching 
-		byte or NULL if 'c' is not found.
+**	Searches for the first occurrence of the byte 'c' in the first 'sz' bytes 
+**	of the memory area pointed to by 's'. Returns a pointer to the matching 
+**	byte or NULL if 'c' is not found.
 */
 void	*ft_memchr(const void *s, int c, size_t sz)
 {

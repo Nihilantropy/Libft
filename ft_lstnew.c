@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_lstnew:
-		Creates a new list node with the given 'content' and initializes its 
-		'next' pointer to NULL. Returns the newly created node, or NULL if 
-		memory allocation fails.
+**	Creates a new list node with the given 'content' and initializes its 
+**	'next' pointer to NULL. Returns the newly created node, or NULL if 
+**	memory allocation fails.
 */
 t_list	*ft_lstnew(void *content)
 {

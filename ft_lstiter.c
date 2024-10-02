@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_lstiter:
-		Iterates over each node in the list pointed to by 'lst'.
-		Applies the function 'f' to the content of each node.
-		If 'lst' or 'f' is NULL, the function does nothing.
+**	Iterates over each node in the list pointed to by 'lst'.
+**	Applies the function 'f' to the content of each node.
+**	If 'lst' or 'f' is NULL, the function does nothing.
 */
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {

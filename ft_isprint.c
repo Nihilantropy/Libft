@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_isprint:
-		Checks if the character 'c' is a printable character.
-		Printable characters are those with ASCII values between 32 and 126, inclusive.
-		Returns 1 if 'c' is printable, 0 otherwise.
+**	Checks if the character 'c' is a printable character.
+**	Printable characters are those with ASCII values between 32 and 126, inclusive.
+**	Returns 1 if 'c' is printable, 0 otherwise.
 */
 int	ft_isprint(int c)
 {

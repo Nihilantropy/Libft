@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_isascii:
-		Checks if the character 'c' is a valid ASCII character (0-127).
-		Returns 1 if 'c' is an ASCII character, 0 otherwise.
+**	Checks if the character 'c' is a valid ASCII character (0-127).
+**	Returns 1 if 'c' is an ASCII character, 0 otherwise.
 */
 int	ft_isascii(int c)
 {

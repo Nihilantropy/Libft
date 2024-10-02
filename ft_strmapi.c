@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_strmapi:
-		Creates a new string by applying the function 'f' to each character of 'str',
-		with the character index as the first parameter, and returns the resulting string.
+**	Creates a new string by applying the function 'f' to each character of 'str',
+**	with the character index as the first parameter, and returns the resulting string.
 */
 char	*ft_strmapi(const char *str, char (*f)(unsigned int, char))
 {

@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_lstdelone:
-		Deletes a single node from the list pointed to by 'lst'.
-		Calls the function 'del' to free the content of the node and then frees the node itself.
-		If 'lst' or 'del' is NULL, the function does nothing.
+**	Deletes a single node from the list pointed to by 'lst'.
+**	Calls the function 'del' to free the content of the node and then frees the node itself.
+**	If 'lst' or 'del' is NULL, the function does nothing.
 */
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {

@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_calloc:
-		Allocates memory for an array of 'count' elements of 'size' bytes each, 
-		initializes all bytes to 0, and returns a pointer to the allocated memory.
+**	Allocates memory for an array of 'count' elements of 'size' bytes each, 
+**	initializes all bytes to 0, and returns a pointer to the allocated memory.
 */
 void	*ft_calloc(size_t count, size_t size)
 {

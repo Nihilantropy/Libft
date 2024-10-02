@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_substr:
-		Allocates and returns a substring from 'str', starting at 'start' for 'len' characters.
-		If 'start' is greater than or equal to the length of 'str', or if 'len' is adjusted to fit 
-		the remaining length of 'str', an empty string or adjusted substring is returned.
+**	Allocates and returns a substring from 'str', starting at 'start' for 'len' characters.
+**	If 'start' is greater than or equal to the length of 'str', or if 'len' is adjusted to fit 
+**	the remaining length of 'str', an empty string or adjusted substring is returned.
 */
 char	*ft_substr(const char *str, unsigned int start, size_t len)
 {

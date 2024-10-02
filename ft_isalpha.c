@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_isalpha:
-		Checks if the character 'c' is an alphabetic letter (A-Z or a-z).
-		Returns 1 if 'c' is an alphabetic letter, 0 otherwise.
+**	Checks if the character 'c' is an alphabetic letter (A-Z or a-z).
+**	Returns 1 if 'c' is an alphabetic letter, 0 otherwise.
 */
 int	ft_isalpha(int c)
 {

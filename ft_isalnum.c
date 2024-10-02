@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_isalnum:
-		Checks if the character 'c' is alphanumeric 
-		(either a letter or a digit). Returns 1 if true, otherwise 0.
+**	Checks if the character 'c' is alphanumeric 
+**	(either a letter or a digit). Returns 1 if true, otherwise 0.
 */
 int	ft_isalnum(int c)
 {

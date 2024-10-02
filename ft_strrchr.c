@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_strrchr:
-		Locates the last occurrence of the character 'c' in the string 'str'.
-		Returns a pointer to the last occurrence of 'c' in 'str' or NULL if 'c' is not found.
+**	Locates the last occurrence of the character 'c' in the string 'str'.
+**	Returns a pointer to the last occurrence of 'c' in 'str' or NULL if 'c' is not found.
 */
 char	*ft_strrchr(const char *str, int c)
 {

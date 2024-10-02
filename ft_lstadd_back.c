@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_lstadd_back:
-		Adds the element 'new' to the end of the list pointed to by 'lst'.
-		If the list is empty (i.e., '*lst' is NULL), 'new' becomes the first element.
-		Otherwise, it traverses the list to find the last element and appends 'new' to it.
+**	Adds the element 'new' to the end of the list pointed to by 'lst'.
+**	If the list is empty (i.e., '*lst' is NULL), 'new' becomes the first element.
+**	Otherwise, it traverses the list to find the last element and appends 'new' to it.
 */
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {

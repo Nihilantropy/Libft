@@ -16,10 +16,10 @@ static size_t	count_words(const char *str, char c);
 static void		make_words(char **words, const char *str, char c, size_t words_nb);
 
 /*	ft_split:
-		Splits the string 'str' into an array of strings based on the delimiter 'c'.
-		The function allocates memory for the array and each substring, and uses
-		auxiliary functions to count words and create substrings.
-		Returns a NULL-terminated array of strings.
+**	Splits the string 'str' into an array of strings based on the delimiter 'c'.
+**	The function allocates memory for the array and each substring, and uses
+**	auxiliary functions to count words and create substrings.
+**	Returns a NULL-terminated array of strings.
 */
 char	**ft_split(const char *str, char c)
 {
@@ -37,9 +37,9 @@ char	**ft_split(const char *str, char c)
 }
 
 /*	count_words:
-		Counts the number of words in the string 'str' separated by the delimiter 'c'.
-		A word is defined as a sequence of characters not equal to 'c'.
-		The function increments the count whenever a new word is encountered.
+**	Counts the number of words in the string 'str' separated by the delimiter 'c'.
+**	A word is defined as a sequence of characters not equal to 'c'.
+**	The function increments the count whenever a new word is encountered.
 */
 static size_t	count_words(const char *str, char c)
 {
@@ -63,10 +63,10 @@ static size_t	count_words(const char *str, char c)
 }
 
 /*	make_words:
-		Fills the 'words' array with substrings extracted from 'str' based on the delimiter 'c'.
-		The function uses 'ft_strchr' to locate the next delimiter and 'ft_substr' to create substrings.
-		After processing each substring, it advances the 'str' pointer and continues until all words
-		are processed. The end of the 'words' array is marked with a NULL pointer.
+**	Fills the 'words' array with substrings extracted from 'str' based on the delimiter 'c'.
+**	The function uses 'ft_strchr' to locate the next delimiter and 'ft_substr' to create substrings.
+**	After processing each substring, it advances the 'str' pointer and continues until all words
+**	are processed. The end of the 'words' array is marked with a NULL pointer.
 */
 static void	make_words(char **words, const char *str, char c, size_t words_nb)
 {

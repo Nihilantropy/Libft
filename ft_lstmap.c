@@ -13,10 +13,10 @@
 #include "libft.h"
 
 /*	ft_lstmap:
-		Creates a new list by applying the function 'f' to each element of the 
-		list pointed to by 'lst'. If any memory allocation fails, the function 
-		clears the newly created list using 'del' and returns NULL. Otherwise, 
-		it returns the new list.
+**	Creates a new list by applying the function 'f' to each element of the 
+**	list pointed to by 'lst'. If any memory allocation fails, the function 
+**	clears the newly created list using 'del' and returns NULL. Otherwise, 
+**	it returns the new list.
 */
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

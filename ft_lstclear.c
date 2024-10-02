@@ -13,12 +13,12 @@
 #include "libft.h"
 
 /*	ft_lstclear:
-		Clears the entire list pointed to by 'lst', using the function 'del'
-		to free the content of each node.
-		Iterates through the list, deletes the content of each node using 'del',
-		and frees the node itself.
-		Sets the list pointer to NULL after all nodes are cleared.
-		If 'lst' or 'del' is NULL, the function does nothing.
+**	Clears the entire list pointed to by 'lst', using the function 'del'
+**	to free the content of each node.
+**	Iterates through the list, deletes the content of each node using 'del',
+**	and frees the node itself.
+**	Sets the list pointer to NULL after all nodes are cleared.
+**	If 'lst' or 'del' is NULL, the function does nothing.
 */
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {

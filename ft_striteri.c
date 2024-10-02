@@ -13,10 +13,10 @@
 #include "libft.h"
 
 /*	ft_striteri:
-		Applies the function 'f' to each character of the string 'str', passing
-		the index of the character and a pointer to the character itself to 'f'.
-		The function 'f' is called for each character in 'str', allowing
-		modification of the string in-place.
+**	Applies the function 'f' to each character of the string 'str', passing
+**	the index of the character and a pointer to the character itself to 'f'.
+**	The function 'f' is called for each character in 'str', allowing
+**	modification of the string in-place.
 */
 void	ft_striteri(char *str, void (*f)(unsigned int, char *))
 {

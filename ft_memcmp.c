@@ -13,10 +13,10 @@
 #include "libft.h"
 
 /*	ft_memcmp:
-		Compares the first 'n' bytes of memory areas pointed to by 's1' and 's2'.
-		Returns an integer less than, equal to, or greater than zero, depending on 
-		whether the first 'n' bytes of 's1' are less than, equal to, or greater 
-		than the first 'n' bytes of 's2'.
+**	Compares the first 'n' bytes of memory areas pointed to by 's1' and 's2'.
+**	Returns an integer less than, equal to, or greater than zero, depending on 
+**	whether the first 'n' bytes of 's1' are less than, equal to, or greater 
+**	than the first 'n' bytes of 's2'.
 */
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

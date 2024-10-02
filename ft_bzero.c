@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_bzero:
-		Sets the first n bytes of the memory area pointed to by arr to zero.
-		This function is typically used to zero out arrays or memory buffers.
+**	Sets the first n bytes of the memory area pointed to by arr to zero.
+**	This function is typically used to zero out arrays or memory buffers.
 */
 void	ft_bzero(void *arr, size_t n)
 {

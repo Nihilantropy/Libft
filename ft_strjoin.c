@@ -13,9 +13,9 @@
 #include "libft.h"
 
 /*	ft_strjoin:
-		Allocates and returns a new string that is the result of concatenating
-		's1' and 's2'. The new string is null-terminated and its size is the
-		sum of the lengths of 's1' and 's2' plus one for the null terminator.
+**	Allocates and returns a new string that is the result of concatenating
+**	's1' and 's2'. The new string is null-terminated and its size is the
+**	sum of the lengths of 's1' and 's2' plus one for the null terminator.
 */
 char	*ft_strjoin(const char *s1, const char *s2)
 {

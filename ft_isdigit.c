@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_isdigit:
-		Checks if the character 'c' is a digit (0-9).
-		Returns 1 if 'c' is a digit, 0 otherwise.
+**	Checks if the character 'c' is a digit (0-9).
+**	Returns 1 if 'c' is a digit, 0 otherwise.
 */
 int	ft_isdigit(int c)
 {

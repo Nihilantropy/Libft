@@ -13,10 +13,10 @@
 #include "libft.h"
 
 /*	ft_lstadd_front:
-		Adds the element 'new' to the beginning of the list pointed to by 'lst'.
-		If 'lst' or 'new' is NULL, the function does nothing.
-		The new element 'new' becomes the first element, and its next pointer
-		is set to the previous first element.
+**	Adds the element 'new' to the beginning of the list pointed to by 'lst'.
+**	If 'lst' or 'new' is NULL, the function does nothing.
+**	The new element 'new' becomes the first element, and its next pointer
+**	is set to the previous first element.
 */
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {

@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_lstsize:
-		Counts and returns the number of nodes in the linked list pointed 
-		to by 'lst'.
+**	Counts and returns the number of nodes in the linked list pointed 
+**	to by 'lst'.
 */
 int	ft_lstsize(t_list *lst)
 {

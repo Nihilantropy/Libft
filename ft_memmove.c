@@ -13,10 +13,10 @@
 #include "libft.h"
 
 /*	ft_memmove:
-		Moves 'len' bytes from memory area 'src' to memory area 'dest'.
-		Handles overlapping regions by copying from the end if 'dest' overlaps 'src'.
-		If either 'dest' or 'src' is NULL, returns NULL.
-		Returns a pointer to 'dest'.
+**	Moves 'len' bytes from memory area 'src' to memory area 'dest'.
+**	Handles overlapping regions by copying from the end if 'dest' overlaps 'src'.
+**	If either 'dest' or 'src' is NULL, returns NULL.
+**	Returns a pointer to 'dest'.
 */
 void	*ft_memmove(void *dest, const void *src, size_t len)
 {

@@ -13,8 +13,8 @@
 #include "libft.h"
 
 /*	ft_memset:
-		Fills the first 'n' bytes of the memory area pointed to by 'arr' with the byte value 'c'.
-		Returns a pointer to the memory area 'arr'.
+**	Fills the first 'n' bytes of the memory area pointed to by 'arr' with the byte value 'c'.
+**	Returns a pointer to the memory area 'arr'.
 */
 void	*ft_memset(void *arr, int c, size_t n)
 {

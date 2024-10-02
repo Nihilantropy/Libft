@@ -13,7 +13,7 @@
 #include "libft.h"
 
 /*	ft_putendl_fd:
-		Writes the string 'str' followed by a newline character to the file descriptor 'fd'.
+**	Writes the string 'str' followed by a newline character to the file descriptor 'fd'.
 */
 void	ft_putendl_fd(char *str, int fd)
 {
